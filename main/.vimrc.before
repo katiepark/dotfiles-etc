@@ -1,0 +1,2 @@
+let mapleader = "\<Space>"
+let g:r_macvim_use32 = 1

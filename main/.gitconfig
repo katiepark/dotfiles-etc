@@ -1,0 +1,21 @@
+[alias]
+  br = branch
+	co = checkout
+  ci = commit
+  st = status
+  cm = commit -m
+  cam = commit -am
+  hist = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %C(cyan)<%an>%Creset' --abbrev-commit --date=relative
+  cleandiff = diff --patience --ignore-space-change --minimal
+  staged = diff -w --cached
+  unstage = reset HEAD
+[user]
+	name = Katie Park
+	email = katie.e.park@gmail.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[merge]
+	tool = vimdiff
