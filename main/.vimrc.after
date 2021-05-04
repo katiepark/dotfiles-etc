@@ -38,3 +38,7 @@ nmap <leader>o :CtrlP<cr>
 
 " Redraw
 nnoremap <leader>rd :redraw!<cr>
+
+" More natural ordering for vertical and horizontal splits
+set splitright
+set splitbelow
