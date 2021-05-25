@@ -1,3 +1,0 @@
-let mapleader = "\<Space>"
-let g:r_macvim_use32 = 1
-call janus#disable_plugin('ctrlp')
