@@ -6,9 +6,7 @@ filetype indent plugin on
 " Enable syntax highlighting
 syntax on
 
-" Colors
-set background=dark
-colorscheme solarized
+set guifont=Monaco:h16
 
 set number " Show line numbers
 set ruler  " Show line and column number
