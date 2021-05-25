@@ -6,7 +6,8 @@ let mapleader=" " " Map leader key to space
 call plug#begin('~/.vim/plugged')
 
 Plug 'preservim/nerdtree'               " Tree explorer
-Plug 'junegunn/fzf.vim'                 " Fuzzy-finder
+Plug 'junegunn/fzf'                     " Fuzzy finder
+Plug 'junegunn/fzf.vim'                 " Helpful fzf commands
 Plug 'vim-airline/vim-airline'          " Fancy statusline
 Plug 'vim-airline/vim-airline-themes'   " Themes for statusline
 Plug 'tpope/vim-eunuch'                 " Enable some unix commands
@@ -24,8 +25,8 @@ Plug 'tpope/vim-repeat'                 " Allow . command for plugin maps
 Plug 'junegunn/goyo.vim'                " Distraction-free writing
 
 " Snippets
-Plug 'MarcWeber/vim-addon-mw-utils'     " Snipmate dependency
-Plug 'tomtom/tlib_vim'                  " Snipmate dependency
+Plug 'SirVer/ultisnips'                 " Snippet engine
+Plug 'honza/vim-snippets'               " Snippet library
 
 " Git integration
 Plug 'tpope/vim-fugitive'               " Call git commands from vim
