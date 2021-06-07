@@ -14,6 +14,12 @@ map <leader>j <C-w><Down>
 map <leader>l <C-w><Right>
 map <leader>h <C-w><Left>
 
+" Map control movements to arrow keys in insert
+inoremap <c-j> <down>
+inoremap <c-h> <left>
+inoremap <c-l> <right>
+inoremap <c-k> <up>
+
 " Redo
 nnoremap U <C-r>
 
@@ -35,7 +41,7 @@ nmap <silent> <leader>tw :set invwrap<CR>:set wrap?<CR>
 nmap <silent> <leader>ul :t.<CR>Vr=
 
 " FZF mappings
-nnoremap <C-p> :FZF<CR>
+nnoremap <C-p> :Files<CR>
 
 " Redraw
 nnoremap <leader>rd :redraw!<cr>

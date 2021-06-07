@@ -22,6 +22,7 @@ Plug 'chrisbra/NrrwRgn'                 " Narrow region editing
 Plug 'mg979/vim-visual-multi'           " Sublime-style multiple cursors
 Plug 'bronson/vim-trailing-whitespace'  " Highlight trailing whitespace
 Plug 'tpope/vim-repeat'                 " Allow . command for plugin maps
+Plug 'tpope/vim-surround'               " Edit surroundings in pairs
 Plug 'junegunn/goyo.vim'                " Distraction-free writing
 
 " Snippets
