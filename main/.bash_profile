@@ -32,3 +32,6 @@ source /usr/local/bin/virtualenvwrapper.sh
 # The original version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:${PATH}"
 export PATH
+
+# Override fzf default command to use ripgrep (excludes files in .gitignore)
+export FZF_DEFAULT_COMMAND='rg --files'
