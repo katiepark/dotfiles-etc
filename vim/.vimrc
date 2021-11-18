@@ -23,7 +23,11 @@ Plug 'mg979/vim-visual-multi'           " Sublime-style multiple cursors
 Plug 'bronson/vim-trailing-whitespace'  " Highlight trailing whitespace
 Plug 'tpope/vim-repeat'                 " Allow . command for plugin maps
 Plug 'tpope/vim-surround'               " Edit surroundings in pairs
+Plug 'tpope/vim-abolish'                " Smart substitution with word variants
 Plug 'junegunn/goyo.vim'                " Distraction-free writing
+
+" Prettier install requires post-install `yarn install` to load
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 
 " Snippets
 Plug 'SirVer/ultisnips'                 " Snippet engine
