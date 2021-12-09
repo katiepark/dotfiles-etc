@@ -26,8 +26,7 @@ Plug 'tpope/vim-surround'               " Edit surroundings in pairs
 Plug 'tpope/vim-abolish'                " Smart substitution with word variants
 Plug 'junegunn/goyo.vim'                " Distraction-free writing
 
-" Prettier install requires post-install `yarn install` to load
-Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+Plug 'dense-analysis/ale'               " Asynchronous linting
 
 " Snippets
 Plug 'SirVer/ultisnips'                 " Snippet engine
