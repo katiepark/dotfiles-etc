@@ -10,8 +10,6 @@ Plug 'junegunn/fzf'                     " Fuzzy finder
 Plug 'junegunn/fzf.vim'                 " Helpful fzf commands
 Plug 'vim-airline/vim-airline'          " Fancy statusline
 Plug 'vim-airline/vim-airline-themes'   " Themes for statusline
-Plug 'tpope/vim-eunuch'                 " Enable some unix commands
-Plug 'tpope/vim-unimpaired'             " Just really helpful mappings
 
 " Editing
 Plug 'ddollar/nerdcommenter'            " Nice comment handling
@@ -26,8 +24,6 @@ Plug 'tpope/vim-surround'               " Edit surroundings in pairs
 Plug 'tpope/vim-abolish'                " Smart substitution with word variants
 Plug 'junegunn/goyo.vim'                " Distraction-free writing
 
-Plug 'dense-analysis/ale'               " Asynchronous linting
-
 " Snippets
 Plug 'SirVer/ultisnips'                 " Snippet engine
 Plug 'honza/vim-snippets'               " Snippet library
@@ -37,6 +33,7 @@ Plug 'tpope/vim-fugitive'               " Call git commands from vim
 Plug 'airblade/vim-gitgutter'           " Show status gutter
 
 " Syntax/languages
+Plug 'dense-analysis/ale'               " Asynchronous linting
 Plug 'sheerun/vim-polyglot'             " Many language
 Plug 'chrisbra/csv.vim'                 " CSV tools
 Plug 'lepture/vim-jinja'                " Jinja/nunjucks highlighting
@@ -52,6 +49,10 @@ Plug 'romainl/flattened'                " Solarized clone that is lower maintena
 Plug 'arcticicestudio/nord-vim'         " Arctic and elegant
 Plug 'sts10/vim-pink-moon'              " Dark and pastel
 Plug 'morhetz/gruvbox'                  " Retro groove
+
+" Helpful mappings
+Plug 'tpope/vim-eunuch'                 " Enable some unix commands
+Plug 'tpope/vim-unimpaired'             " Just really helpful mappings, some conflict with ALE plugin
 
 " Initialize plugin system
 call plug#end()
