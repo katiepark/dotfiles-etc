@@ -5,7 +5,6 @@ let mapleader=" " " Map leader key to space
 " - Avoid using standard Vim directory names like 'plugin'
 call plug#begin('~/.vim/plugged')
 
-Plug 'preservim/nerdtree'               " Tree explorer
 Plug 'junegunn/fzf'                     " Fuzzy finder
 Plug 'junegunn/fzf.vim'                 " Helpful fzf commands
 Plug 'vim-airline/vim-airline'          " Fancy statusline
