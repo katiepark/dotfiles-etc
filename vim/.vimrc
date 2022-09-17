@@ -10,6 +10,11 @@ Plug 'junegunn/fzf.vim'                 " Helpful fzf commands
 Plug 'vim-airline/vim-airline'          " Fancy statusline
 Plug 'vim-airline/vim-airline-themes'   " Themes for statusline
 
+" Fern + plugins
+Plug 'lambdalisue/fern.vim'             " File explorer/project drawer
+Plug 'lambdalisue/fern-hijack.vim'      " Replace netrw with fern
+Plug 'yuki-yano/fern-preview.vim'       " Add preview window to fern
+
 " Editing
 Plug 'ddollar/nerdcommenter'            " Nice comment handling
 Plug 'alvan/vim-closetag'               " Automatically close tags
