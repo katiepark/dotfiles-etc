@@ -9,6 +9,7 @@ Plug 'junegunn/fzf'                     " Fuzzy finder
 Plug 'junegunn/fzf.vim'                 " Helpful fzf commands
 Plug 'vim-airline/vim-airline'          " Fancy statusline
 Plug 'vim-airline/vim-airline-themes'   " Themes for statusline
+Plug 'lifepillar/vim-cheat40'           " 40-col vim cheatsheet
 
 " Fern + plugins
 Plug 'lambdalisue/fern.vim'             " File explorer/project drawer
