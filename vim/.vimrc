@@ -54,6 +54,8 @@ Plug 'romainl/flattened'                " Solarized clone that is lower maintena
 Plug 'arcticicestudio/nord-vim'         " Arctic and elegant
 Plug 'sts10/vim-pink-moon'              " Dark and pastel
 Plug 'morhetz/gruvbox'                  " Retro groove
+Plug 'NLKNguyen/papercolor-theme'       " Bright with dark/light modes
+Plug 'ghifarit53/tokyonight-vim'        " Nightlife vibes
 
 " Helpful mappings
 Plug 'tpope/vim-eunuch'                 " Enable some unix commands
