@@ -15,13 +15,17 @@ let g:ale_linters = {
       \ 'solargraph',
       \ 'sorbet'
     \ ],
-  \ 'javascript': ['prettier']
+  \ 'javascript': ['prettier'],
+  \ 'css': ['prettier'],
+  \ 'scss': ['prettier'],
 \ }
 
 let g:ale_fixers = {
 \   '*': ['remove_trailing_lines', 'trim_whitespace'],
 \   'javascript': ['prettier'],
 \   'ruby': ['rubocop'],
+\   'css': ['prettier'],
+\   'scss': ['prettier'],
 \}
 
 " Set this variable to 1 to fix files when you save them.
