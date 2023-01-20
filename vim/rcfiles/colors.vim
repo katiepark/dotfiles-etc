@@ -1,6 +1,9 @@
 set background=dark
 set termguicolors " Finally support true colors in console vim
 
+" Show CSS colors as background colors
+let g:Hexokinase_highlighters = ['backgroundfull']
+
 " Slightly darker bg for seoul256 theme
 let g:seoul256_background = 234
 colorscheme seoul256

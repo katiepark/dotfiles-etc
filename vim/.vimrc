@@ -45,6 +45,7 @@ Plug 'lepture/vim-jinja'                " Jinja/nunjucks highlighting
 Plug 'plasticboy/vim-markdown'          " Syntax highlighting and nice code folding for Markdown
 Plug 'tpope/vim-rails'                  " Tons of features for rails projects
 Plug 'tpope/vim-rake'                   " Nicer file navigation for ruby libraries
+Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' } " Highlight css colors
 
 " Color schemes
 Plug 'tomasr/molokai'                   " Port of TextMate's monokai
