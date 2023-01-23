@@ -1,6 +1,9 @@
 " Turn on ALE extension for airline
 let g:airline#extensions#ale#enabled = 1
 
+" Disable virtualtext ALE messages
+let g:ale_virtualtext_cursor = 'disabled'
+
 " Specify which linters should run
 " TODO: this could be moved to ftplugin files per language
 let g:ale_linters = {
@@ -22,8 +25,8 @@ let g:ale_linters = {
 
 let g:ale_fixers = {
 \   '*': ['remove_trailing_lines', 'trim_whitespace'],
-\   'javascript': ['prettier'],
 \   'ruby': ['rubocop'],
+\   'javascript': ['prettier'],
 \   'css': ['prettier'],
 \   'scss': ['prettier'],
 \}
