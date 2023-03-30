@@ -17,6 +17,7 @@ Plug 'lambdalisue/fern-hijack.vim'      " Replace netrw with fern
 Plug 'yuki-yano/fern-preview.vim'       " Add preview window to fern
 
 " Editing
+Plug 'github/copilot.vim'               " Welcome our new robot overlords
 Plug 'ddollar/nerdcommenter'            " Nice comment handling
 Plug 'alvan/vim-closetag'               " Automatically close tags
 Plug 'cohama/lexima.vim'                " Auto-close parens, other pairs
