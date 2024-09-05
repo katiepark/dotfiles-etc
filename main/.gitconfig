@@ -1,3 +1,6 @@
+[user]
+	name = Katie Park
+	email = katie.e.park@gmail.com
 [alias]
   br = branch
 	co = checkout
@@ -9,15 +12,16 @@
   cleandiff = diff --patience --ignore-space-change --minimal
   staged = diff -w --cached
   unstage = reset HEAD
-[user]
-	name = Katie Park
-	email = katie.e.park@gmail.com
+  recent = branch --sort=-committerdate
+[merge]
+	tool = vimdiff
+[pull]
+	rebase = false
+[push]
+  autoSetupRemote = true
+  default = current
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
-[merge]
-	tool = vimdiff
-[pull]
-	rebase = false
