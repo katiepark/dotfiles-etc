@@ -1,3 +1,11 @@
+let mapleader=" " " Map leader key to space
+
+" Disable weird defaults
+set nocompatible
+
+" Autoindent causing all sorts of struggles
+let g:polyglot_disabled = ['autoindent']
+
 " Attempt to determine the type of a file based on its name and possibly its
 " contents. Use this to allow intelligent auto-indenting for each filetype,
 " and for plugins that are filetype specific.
@@ -6,7 +14,7 @@ filetype indent plugin on
 " Enable syntax highlighting
 syntax on
 
-set guifont=Monaco:h16
+set guifont=Monaco:h15
 
 set number " Show line numbers
 set ruler  " Show line and column number

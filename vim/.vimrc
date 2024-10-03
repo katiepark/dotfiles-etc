@@ -1,4 +1,5 @@
-let mapleader=" " " Map leader key to space
+" Basic setup
+source ~/.vim/rcfiles/general.vim
 
 " vim-plug for plugin management
 " Specify a directory for plugins
@@ -17,7 +18,7 @@ Plug 'lambdalisue/fern-hijack.vim'      " Replace netrw with fern
 Plug 'yuki-yano/fern-preview.vim'       " Add preview window to fern
 
 " Editing
-Plug 'github/copilot.vim'               " Welcome our new robot overlords
+" Plug 'github/copilot.vim'               " Welcome our new robot overlords
 Plug 'ddollar/nerdcommenter'            " Nice comment handling
 Plug 'alvan/vim-closetag'               " Automatically close tags
 Plug 'cohama/lexima.vim'                " Auto-close parens, other pairs
@@ -66,14 +67,11 @@ Plug 'tpope/vim-unimpaired'             " Just really helpful mappings, some con
 " Initialize plugin system
 call plug#end()
 
-" Extremely stolen from @gabeisman
-function! s:SourceConfigFilesIn(directory)
-  let directory_splat = '~/.vim/' . a:directory . '/*'
-  for config_file in split(glob(directory_splat), '\n')
-    if filereadable(config_file)
-        execute 'source' config_file
-    endif
-  endfor
-endfunction
-
-call s:SourceConfigFilesIn('rcfiles')
+" Source all other config files
+source ~/.vim/rcfiles/colors.vim
+source ~/.vim/rcfiles/editing.vim
+source ~/.vim/rcfiles/fern.vim
+source ~/.vim/rcfiles/fzf.vim
+source ~/.vim/rcfiles/linters.vim
+source ~/.vim/rcfiles/mappings.vim
+source ~/.vim/rcfiles/search.vim
