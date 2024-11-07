@@ -6,7 +6,7 @@ source ~/.vim/rcfiles/general.vim
 " - Avoid using standard Vim directory names like 'plugin'
 call plug#begin('~/.vim/plugged')
 
-Plug 'junegunn/fzf'                     " Fuzzy finder
+Plug '/usr/local/opt/fzf'               " Fuzzy finder (via Homebrew fzf install)
 Plug 'junegunn/fzf.vim'                 " Helpful fzf commands
 Plug 'vim-airline/vim-airline'          " Fancy statusline
 Plug 'vim-airline/vim-airline-themes'   " Themes for statusline
@@ -32,7 +32,7 @@ Plug 'tpope/vim-abolish'                " Smart substitution with word variants
 Plug 'junegunn/goyo.vim'                " Distraction-free writing
 
 " Snippets
-" Plug 'SirVer/ultisnips'                 " Snippet engine
+Plug 'SirVer/ultisnips'                 " Snippet engine
 Plug 'honza/vim-snippets'               " Snippet library
 
 " Git integration
