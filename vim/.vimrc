@@ -32,8 +32,8 @@ Plug 'tpope/vim-abolish'                " Smart substitution with word variants
 Plug 'junegunn/goyo.vim'                " Distraction-free writing
 
 " Snippets
-Plug 'SirVer/ultisnips'                 " Snippet engine
-Plug 'honza/vim-snippets'               " Snippet library
+" Plug 'SirVer/ultisnips'                 " Snippet engine
+" Plug 'honza/vim-snippets'               " Snippet library
 
 " Git integration
 Plug 'tpope/vim-fugitive'               " Call git commands from vim
