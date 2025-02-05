@@ -12,3 +12,6 @@ function newgraphic -d "Create a new TMP graphic in directory" -a dir
   cd $dir
   sh setup.sh
 end
+
+# Ripgrep exclude annoying archive files in Endrun
+alias rge="rg --glob='!data/posts/*.json' --glob='!notebooks' --glob='!app/views/admin/static'"
