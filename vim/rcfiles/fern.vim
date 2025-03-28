@@ -36,6 +36,7 @@ function! FernInit() abort
   nmap <buffer> R <Plug>(fern-action-rename)
   nmap <buffer> x <Plug>(fern-action-open:split)
   nmap <buffer> v <Plug>(fern-action-open:vsplit)
+  nmap <buffer> t <Plug>(fern-action-open:tabedit)
   nmap <buffer> r <Plug>(fern-action-reload)
   nmap <buffer> <nowait> d <Plug>(fern-action-hidden:toggle)
   nmap <buffer> <nowait> < <Plug>(fern-action-leave)
