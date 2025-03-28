@@ -22,3 +22,11 @@ if has('gui_running')
 else
   colorscheme seoul256
 endif
+
+" Specify colors for terminal mode, based on seoul256
+let g:terminal_ansi_colors = [
+  \'#4e4e4e', '#d68787', '#5f865f', '#d8b05f',
+  \'#85add4', '#d7afaf', '#87afaf', '#d0d0d0',
+  \'#626262', '#d75f87', '#87af87', '#ffd787',
+  \'#add4fb', '#ffafaf', '#87d7d7', '#e4e4e4' ]
+highlight Terminal guibg='#252525' guifg='#d8d8d8'
