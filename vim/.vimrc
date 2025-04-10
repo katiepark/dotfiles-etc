@@ -6,7 +6,7 @@ source ~/.vim/rcfiles/general.vim
 " - Avoid using standard Vim directory names like 'plugin'
 call plug#begin('~/.vim/plugged')
 
-Plug '/usr/local/opt/fzf'               " Fuzzy finder (via Homebrew fzf install)
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " Fuzzy finder
 Plug 'junegunn/fzf.vim'                 " Helpful fzf commands
 Plug 'vim-airline/vim-airline'          " Fancy statusline
 Plug 'vim-airline/vim-airline-themes'   " Themes for statusline
